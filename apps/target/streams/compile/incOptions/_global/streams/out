@@ -1,2 +1,2 @@
-[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /opt/spark-apps/target/scala-2.12/classes.bak[0m
-[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /opt/spark-apps/target/scala-2.12/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\phanv\OneDrive - VNU-HCMUS\Desktop\streaming-bigquery\apps\target\scala-2.12\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\phanv\OneDrive - VNU-HCMUS\Desktop\streaming-bigquery\apps\target\scala-2.12\classes.bak[0m
