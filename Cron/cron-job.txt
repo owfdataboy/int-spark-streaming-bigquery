@@ -1,0 +1,1 @@
+* * * * * cd /streaming-bigquery/data && /usr/bin/python3 python_kafka_test_client.py

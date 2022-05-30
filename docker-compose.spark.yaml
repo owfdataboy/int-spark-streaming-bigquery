@@ -2,6 +2,8 @@ version: '3.1'
 
 networks:
     net:
+        external: true
+
 
 services:
     # Grafana Service
@@ -16,18 +18,18 @@ services:
         volumes:
             - ./Grafana/grafana_db:/var/lib/grafana:rw #needs command 'sudo chmod -R 777 Grafana/*'
             - ./Grafana/provisioning/datasource:/etc/grafana/provisioning/datasources
-            - ./Grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards 
+            - ./Grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards
         depends_on:
             - prometheus
         networks:
             - net
-    
+
     # Prometheus Service   
     prometheus:
         image: prom/prometheus:v2.20.1
         container_name: prometheus
         restart: unless-stopped
-        ports: 
+        ports:
             - 9090:9090
         command:
             - '--config.file=/etc/prometheus/prometheus.yml'

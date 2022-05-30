@@ -84,3 +84,5 @@ project/plugins/project/
 
 Prometheus/prometheus_db/*
 Grafana/grafana_db/*
+
+/env
